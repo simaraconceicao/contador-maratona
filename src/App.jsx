@@ -83,42 +83,37 @@ function App() {
     {
       title: 'npm',
       description: 'npm é o gerenciador de pacotes para JavaScript. Ajuda você a descobrir e instalar pacotes de código, gerenciar dependências e executar scripts.',
-      link: 'https://www.npmjs.com/',
+      link: 'https://youtu.be/LX6XWNIYjJ8',
     },
     {
       title: 'Vite',
       description: 'Vite é uma ferramenta de construção front-end de próxima geração que melhora significativamente a experiência de desenvolvimento. Suporta Vue.js e React.',
-      link: 'https://vitejs.dev/',
+      link: 'https://youtu.be/Pwg67ZsvM1Q',
     },
     {
-      title: 'Objeto + Tutorial',
+      title: 'Objeto',
       description: 'Um objeto em JavaScript é uma estrutura de dados que armazena pares de chave e valor. É utilizado para representar e organizar informações em formato de propriedades.',
-      link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects',
+      link: 'https://youtu.be/UVPqnCi77Xw',
     },
     {
       title: 'Array + Tutorial',
       description: 'Em JavaScript, um array é uma estrutura de dados que armazena elementos de forma ordenada. É uma lista de valores acessíveis por índices numéricos, começando do zero.',
-      link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array',
-    },
-    {
-      title: 'JSON + Tutorial',
-      description: 'JSON (JavaScript Object Notation) é um formato de dados leve e de fácil leitura utilizado para intercâmbio de informações. Em JavaScript, o JSON é frequentemente utilizado para serializar e transmitir dados.',
-      link: 'https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON',
+      link: 'https://youtu.be/FhTA31ca7Qw',
     },
     {
       title: 'Loop + Tutorial',
       description: 'Em JavaScript, um loop é uma estrutura de controle que permite repetir um bloco de código várias vezes. Existem diversos tipos de loops, como o "for" e o "while", que facilitam a iteração sobre dados.',
-      link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration',
+      link: 'https://youtu.be/oWBWYyKOumA',
     },
     {
       title: 'Arrow functions + Tutorial',
       description: 'Outra forma de escrever funções em javascript. A principal característica das arrow functions é a omissão da palavra-chave "function" e a introdução de uma seta (=>) entre os parâmetros e o corpo da função. Indicada para exepressões mais curtas.',
-      link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects',
+      link: 'https://youtu.be/ooIp8ci8COI',
     },
     {
       title: 'Métodos para Arrays + Tutorial',
-      description: 'Os métodos para arrays em JavaScript são funções incorporadas que permitem realizar operações específicas em arrays. Alguns exemplos incluem "map", "filter" e "reduce", oferecendo maneiras eficientes de manipular dados em arrays.',
-      link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#methods',
+      description: 'Os métodos para arrays em JavaScript são funções incorporadas que permitem realizar operações específicas em arrays. Alguns exemplos incluem "map", "sort", "filter" e "reduce", oferecendo maneiras eficientes de manipular dados em arrays.',
+      link: 'https://youtu.be/F6C74CsxZHI',
     }
   ];
   
@@ -146,7 +141,7 @@ function App() {
             <h2>{card.title}</h2>
             <p>{card.description}</p>
             <a href={card.link} target="_blank" rel="noopener noreferrer">
-              Saiba mais
+              Ver vídeo no Youtube
             </a>
           </div>
         ))}
@@ -154,7 +149,7 @@ function App() {
       
       <footer>
         <p className="read-the-docs">
-          Criado com amor por Simara Conceição, Quero Ser Dev.
+          Criado com amor por Simara Conceição - Quero Ser Dev.
         </p>
       </footer>
     </>
