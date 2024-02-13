@@ -6,7 +6,6 @@ body {
 header {
   background: #4E4180;
   width: 100%;
-  position: fixed;
   height: auto;
   text-align: center;
 }
@@ -36,8 +35,8 @@ input[type="text"] {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  padding-top: 380px;
-  padding-bottom: 200px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   width: 80%;
   margin: 0 auto;
 }
